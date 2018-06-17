@@ -1,0 +1,139 @@
+body{
+<<<<<<< HEAD
+    background-color: white;
+=======
+    background: Blue;
+>>>>>>> feature
+    margin: 0;
+}
+.link-title{
+    text-decoration: none;
+    font-size: 24px;
+    color:#003300;
+}
+.container{
+    width: 780px;
+    margin: 0 auto;
+    background:  white;
+    box-shadow: 0px 9px 13px 5px;
+}
+.header{
+    padding: 45px 0 20px 40px;
+}
+.menu{
+    background: #3b7687;
+    padding: 6px 0px 6px 40px
+}
+.menu a{
+    color: #c5d6db;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Skranji', cursive;
+}
+.menu a:hover{
+    color:dodgerblue;
+}
+aside{
+    float: left;
+    width: 120px;
+    padding: 30px 0 0 40px;
+}
+h1{
+    margin: 0px;
+    color:darksalmon;
+    font-size: 24px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: normal;
+}
+h2{
+    color:aqua;
+    font-size: 15px;
+    margin: 20px 0 5px 0;
+}
+.main{
+    margin: 0 0 0 180px;
+    padding: 35px 40px 30px 0;
+    color: #800000;
+    font-size: 13px;
+    font-family: "Georgia";
+    line-height: 18px;
+    text-align: justify;
+}
+.main a:hover{
+    color:darkcyan;
+}
+footer{
+    padding: 12px 6px 12px 6px;
+    background: #d6d6d6;
+    font-family: 'Alegreya Sans', sans-serif;
+    color:darkslategrey;
+    font-size: 11px;
+    text-decoration: right;
+}
+footer a{
+    text-decoration: none;
+    color:crimson;
+}
+.separator{
+    color:white;
+    font-size: 11px;
+}
+#home-image img{
+    width: 100%;   
+}
+
+
+/****************About Page Styles*************************/
+#about-page #home-image img{
+    width: 40%;   
+    float: left;
+    margin-bottom: 15px;
+}
+#profile-info{
+    float: right;
+    width: 30%; 
+    margin: -20px 100px 10px 0;
+}
+.description{
+    clear: both;
+}
+ul{
+    display: block;
+    list-style-type: circle;
+    font-size:20px;
+    line-height: 25px;
+    font-style: italic;
+    color:deeppink;
+}
+
+
+/********************************Contact***************************************/
+
+#form{
+    width: 500px;
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+    box-shadow: 0px 9px 13px 5px;
+    border-radius: 2px;
+}
+.page-heading{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#form input{
+    width:100%;
+    border-radius: 5px;
+    height: 20px;
+    background: #545388;
+    color: cornsilk;
+}
+#form #message{
+    width:100%;
+    border-radius: 5px;
+    background: #545388;
+    color: cornsilk;
+}
+#form #submit{
+    height: 30px;
+    background: #8c1212;
+}
